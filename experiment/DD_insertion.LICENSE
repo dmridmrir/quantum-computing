@@ -1,0 +1,12 @@
+License scope for experiment/DD_insertion.py
+
+The Apache License, Version 2.0 applies to the implementation and comments authored by Jeonggeun Seo in experiment/DD_insertion.py, including those contributions present in Git blob:
+
+2142adb016c3032c9b291c56894cafb442f606ee
+
+This license does not relicense any third-party material contained in or adapted into the file. In particular, material derived from Qiskit or other upstream sources remains subject to its applicable upstream license and attribution requirements.
+
+Copyright 2026 Jeonggeun Seo
+
+Licensed under the Apache License, Version 2.0.
+SPDX-License-Identifier: Apache-2.0
