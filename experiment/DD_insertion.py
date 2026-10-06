@@ -1,3 +1,14 @@
+# Copyright 2024 Jeonggeun Seo
+#
+# Portions of this file authored by Jeonggeun Seo are licensed under
+# the Apache License, Version 2.0.
+#
+# This license applies only to the contributions authored by Jeonggeun Seo
+# and does not relicense third-party material, including material derived
+# from or adapted from Qiskit or other upstream sources.
+#
+# SPDX-License-Identifier: Apache-2.0
+
 import numpy as np
 from qiskit.circuit.equivalence_library import SessionEquivalenceLibrary
 from qiskit.converters import circuit_to_dag, dag_to_circuit
