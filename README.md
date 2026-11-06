@@ -1,1 +1,3 @@
 # quantum-computing
+
+  - exercise / study / work ...
