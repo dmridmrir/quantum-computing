@@ -1,0 +1,26 @@
+# AI coding tools
+**/.claude/
+**/.cursor/
+**/.aider*
+**/.continue/
+**/.codex/
+**/.github/copilot-instructions.md
+**/CLAUDE.md
+**/AGENTS.md
+**/.cursorrules
+**/.cursorignore
+**/.aider.conf.yml
+
+# AI-generated temporary files
+**/.agent/
+**/.agents/
+
+# Python environments and cache
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Windows-incompatible whitespace directory
+/bp_bench_pkg/uPIMulator/benchmark/BFUF/baselines/cpu/ /
