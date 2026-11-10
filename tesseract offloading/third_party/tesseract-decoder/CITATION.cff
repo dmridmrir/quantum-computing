@@ -1,0 +1,68 @@
+# Citation information for this repository.                         -*- yaml -*-
+#
+# CITATION.cff provide human- & machine-readable citation info for software and
+# datasets. GitHub, Zenodo, and the Zotero browser plugin all use CFF files
+# automatically. Tools exist to generate CITATION.cff files from other formats
+# such as BibTeX. For more info, visit https://citation-file-format.github.io/.
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+cff-version: 1.2.0
+message: >-
+  Please cite your use of Tesseract Decoder using the reference metadata
+  provided here.
+
+# If preferred-citation is present, GitHub uses its value for the "cite this
+# repository" button and ignores the rest of this file; conversely, the Zenodo-
+# GitHub integration ignores this field when archiving a new software release
+# and uses the metadata in the rest of this file.
+preferred-citation:
+  type: generic
+  authors: &authors
+    - family-names: Aghababaie Beni
+      given-names: Laleh
+      affiliation: Google LLC
+    - family-names: Higgott
+      given-names: Oscar
+      affiliation: Google LLC
+    - family-names: Shutty
+      given-names: Noah
+      affiliation: Google LLC
+  title: 'Tesseract: A Search-Based Decoder for Quantum Error Correction'
+  year: 2025
+  date-published: 2025-01-01
+  doi: 10.48550/arXiv.2503.10988
+  url: https://arxiv.org/abs/2503.10988
+
+# The remaining metadata in this file describes the current software release.
+
+title: Tesseract Decoder
+authors: *authors
+abstract: A Search-Based Decoder for Quantum Error Correction.
+date-released: 2025-03-12
+url: https://github.com/quantumlib/tesseract-decoder
+repository-code: https://github.com/quantumlib/tesseract-decoder
+license: Apache-2.0
+type: software
+identifiers:
+  - description: Publication about Tesseract Decoder
+    value: 10.48550/arXiv.2503.10988
+    type: doi
+  - description: GitHub repository for Tesseract Decoder
+    value: https://github.com/quantumlib/tesseract-decoder
+    type: url
+keywords:
+  - A*
+  - a-star
+  - algorithms
+  - C++
+  - color code
+  - QEC
+  - QEC code
+  - quantum
+  - quantum computing
+  - quantum error correction
+  - research
+  - science
+  - software
+  - surface code
+  - syndrome-decoding

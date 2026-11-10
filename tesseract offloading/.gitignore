@@ -1,0 +1,122 @@
+# -----------------------------------------------------------------------------
+# Local and AI-assistant metadata
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
+.claude/
+AGENTS.md
+CLAUDE.md
+
+# AI-generated plans, intermediate reports, and result interpretations.
+# Keep README.md files because they document how to build and run the project.
+**/OPTIMIZATION_RESULTS.md
+**/PLAN.md
+**/*_PLAN.md
+**/*_PLAN_*.md
+**/REPORT.md
+**/*_REPORT.md
+**/*_REPORT_*.md
+**/RESULTS.md
+**/*_RESULTS.md
+**/*_RESULTS_*.md
+**/ABORTED.md
+
+# -----------------------------------------------------------------------------
+# Decoder variants outside the MBF-UF implementation
+# -----------------------------------------------------------------------------
+# No BP decoder is currently present under these names. These rules prevent
+# future BP/BP-OSD experiments from being included accidentally.
+**/BP/
+**/bp/
+**/bp_decoder/
+**/bp-decoder/
+**/bp_osd/
+**/bp-osd/
+**/bposd/
+**/belief_propagation/
+**/belief-propagation/
+**/*_bp_decoder.*
+**/*-bp-decoder.*
+
+# -----------------------------------------------------------------------------
+# Generated experiment data and large workloads
+# -----------------------------------------------------------------------------
+results/
+**/results/
+**/traces/*_sample*/
+**/workloads/*_100m*/
+*.b8
+*.log
+
+# Generated simulator inputs and binaries (source fixtures such as .01, .dem,
+# .stim, and the small versioned JSON traces remain tracked).
+**/uPIMulator/bin/
+**/uPIMulator/bin_*/
+*.bin
+
+# -----------------------------------------------------------------------------
+# Build products, caches, and local environments
+# -----------------------------------------------------------------------------
+build/
+cmake-build/
+cmake-build-*/
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-*/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.ipynb
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+
+# The bundled UPMEM SDK is part of the reproducible toolchain. Keep its shared
+# libraries and device-runtime blobs even though generated files of the same
+# types are ignored elsewhere.
+!/simulator/tesseract_msc_bench/upmem_sdk/lib/*.so
+!/simulator/tesseract_msc_bench/upmem_sdk/lib/*.so.*
+!/simulator/tesseract_msc_bench/upmem_sdk/share/upmem/include/misc/*.bin
+
+# -----------------------------------------------------------------------------
+# Papers, diagrams, and non-runtime artwork
+# -----------------------------------------------------------------------------
+papers/
+paper/
+*.pdf
+*.drawio
+*.drawio.bak
+*.io
+*.vsdx
+*.xcf
+*.skp
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Large documentation-only assets copied from upstream MSC.
+/third_party/magic-state-cultivation/assets/
+
+# Generated visualization capture from the upstream reference decoder.
+/third_party/tesseract-decoder/viz/logfile.json

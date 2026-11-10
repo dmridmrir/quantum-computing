@@ -1,0 +1,12 @@
+{
+  "format": "tesseract-dpu-trace-v1",
+  "q_bits": 0,
+  "detector_penalty_q": 2,
+  "num_detectors": 2,
+  "error_detector_offsets": [0, 2, 3],
+  "error_detector_ids": [0, 1, 1],
+  "error_cost_q": [8, 6],
+  "candidate_detector_offsets": [0, 2, 3],
+  "candidate_detector_ids": [0, 1, 1],
+  "candidate_blocked_error_words": [0, 2]
+}

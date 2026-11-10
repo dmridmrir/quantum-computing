@@ -1,0 +1,16 @@
+# Shell scripts must remain executable by Bash after a Windows checkout.
+*.sh text eol=lf
+
+# Extensionless/text UPMEM SDK wrappers invoked by the build scripts.
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu_v1A_mode text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu_v1B_mode text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-clang text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-lldb text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-lldb-attach-dpu text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-lldb-attach-dpu-vscode text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-lldb-vscode text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-pkg-config text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpu-upmem-dpurte-clang text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/dpuasmdoc text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/gen_db.py text eol=lf
+/simulator/tesseract_msc_bench/upmem_sdk/bin/gen_spd.py text eol=lf
