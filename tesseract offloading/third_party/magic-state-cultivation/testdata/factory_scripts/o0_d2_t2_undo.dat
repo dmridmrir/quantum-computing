@@ -1,6 +1,0 @@
-PROMISE num_t_outputs=0
-PROMISE distance=2
-PROMISE num_t_used=2
-
-ALLOC T0
-POSTSELECT_RELEASE T0

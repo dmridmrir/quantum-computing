@@ -1,8 +1,0 @@
-.idea/
-out/
-__pycache__/
-.pytest_cache/
-.venv/
-tmp.html
-tmp.svg
-tmp.csv
